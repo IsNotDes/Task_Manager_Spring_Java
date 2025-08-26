@@ -12,7 +12,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 
 ## 🛠️ Technology Stack
 
-- **Java 17**
+- **Java 21**
 - **Spring Boot 3.2.0**
 - **Spring Data JPA**
 - **H2 Database**
@@ -32,7 +32,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 
 ## 🏃‍♂️ Running the Application
 
-1. **Prerequisites**: Java 17 and Maven installed
+1. **Prerequisites**: Java 21 and Maven installed
 
 2. **Clone and run**:
    ```bash
