@@ -2,7 +2,7 @@
 
 A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 
-## 🚀 Features
+## Features
 
 - Create, read, update, and delete tasks
 - Filter tasks by status (pending/done)
@@ -10,7 +10,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 - RESTful API endpoints
 - Lombok for reduced boilerplate code
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Java 21**
 - **Spring Boot 3.2.0**
@@ -19,7 +19,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 - **Lombok**
 - **Maven**
 
-## 📋 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -30,7 +30,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 | PUT | `/tasks/{id}` | Update a task |
 | DELETE | `/tasks/{id}` | Delete a task |
 
-## 🏃‍♂️ Running the Application
+## Running the Application
 
 1. **Prerequisites**: Java 21 and Maven installed
 
@@ -46,7 +46,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
      - Username: `sa`
      - Password: (leave empty)
 
-## 📝 Task Model
+## Task Model
 
 ```json
 {
@@ -62,7 +62,7 @@ A RESTful API built with Spring Boot for managing tasks with CRUD operations.
 - `pending` - Task not yet completed
 - `done` - Task completed
 
-## 🧪 Example API Calls
+## Example API Calls
 
 ### Create a Task
 ```bash
@@ -103,7 +103,7 @@ curl -X PUT http://localhost:8080/tasks/1 \
 curl -X DELETE http://localhost:8080/tasks/1
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/main/java/com/example/taskmanager/
@@ -118,7 +118,7 @@ src/main/java/com/example/taskmanager/
 └── TaskManagerApplication.java # Main application class
 ```
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Add authentication with Spring Security
 - Replace H2 with PostgreSQL/MySQL for production
